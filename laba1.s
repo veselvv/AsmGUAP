@@ -54,7 +54,7 @@ main:
     divq %r15
     
     leaq  output_str(%rip), %rdi 
-    movq %rax, %rsi
+    movq %rax, %rsi 
     xor %eax, %eax                 
     call printf 
     movq $0, %rax                   
